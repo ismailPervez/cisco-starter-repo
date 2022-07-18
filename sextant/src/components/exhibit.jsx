@@ -1,8 +1,8 @@
 const Exhibit = ({ children }) => {
   return (
-    <>
+    <div className="exhibit-card">
         { children }
-    </>
+    </div>
   )
 }
 

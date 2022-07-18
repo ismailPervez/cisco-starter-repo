@@ -9,7 +9,10 @@ function App() {
       <main>
         {/* individual page component here */}
         <Exhibit>
-          <h2>Welcome IsmailPervez</h2>
+          <h2>Hello From Exhibit 1</h2>
+        </Exhibit>
+        <Exhibit>
+        <h2>Hello From Exhibit 2</h2>
         </Exhibit>
       </main>
     </div>

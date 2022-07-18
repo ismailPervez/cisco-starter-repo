@@ -27,4 +27,15 @@ header {
 
 main {
   padding:  1% 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+}
+
+.exhibit-card {
+  padding: 1% 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 3px;
+  min-height: 200px;
 }
