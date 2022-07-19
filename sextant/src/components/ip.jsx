@@ -23,7 +23,7 @@ const Ip = ({ ipv = 4 }) => {
     }, [ipv]) // component on mount
     return (
         <div>
-            <p>ismailpervez's Public IP: { ipAddr }</p>
+            <p>{ ipAddr }</p>
         </div>
     )
 }
