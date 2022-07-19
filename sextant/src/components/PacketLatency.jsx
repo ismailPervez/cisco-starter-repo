@@ -19,7 +19,7 @@ const PacketLatency = () => {
     }, []) // no dependancy array, constant refresh
     return (
         <div>
-            <p id="epoch-p">{ packetLatency }s</p>
+            <p id="epoch-p">{ packetLatency }ms</p>
         </div>
     )
 }
