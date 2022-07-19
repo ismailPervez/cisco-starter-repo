@@ -13,9 +13,8 @@ const Ip = ({ ipv = 4 }) => {
         }
 
         else if (ipv === 6) {
-            // can't reach an endpoint to target IPV6
             // ipify package causes errors
-            fetch('https://api.ipify.org?format=json')
+            fetch('https://api64.ipify.org?format=json')
             .then(res => res.json())
             .then(data => {
                 setIpAddr(data.ip);
