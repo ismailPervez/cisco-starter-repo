@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/banner';
 import Exhibit from './components/exhibit';
+import Ip from './components/ip';
 
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
       <main>
         {/* individual page component here */}
         <Exhibit>
-          <h2>Hello From Exhibit 1</h2>
+          <Ip />
         </Exhibit>
         <Exhibit>
-        <h2>Hello From Exhibit 2</h2>
+          <Ip ipv={6} />
         </Exhibit>
       </main>
     </div>
